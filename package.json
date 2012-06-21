@@ -1,0 +1,10 @@
+{
+    "name": "watchmouse.js"
+  , "version": "0.0.1"
+  , "description": "Provides Health Checks of a Given set of APIs using Watchmouse"
+  , "keywords": []
+  , "author": "Bernardo Gomez Palacio <bernardo@hashgo.com>"
+  , "dependencies": {}
+  , "main": "index"
+  , "engines": { "node": "0.6.x" }
+}

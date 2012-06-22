@@ -1,10 +1,25 @@
 {
-    "name": "watchmouse.js"
-  , "version": "0.0.1"
-  , "description": "Provides Health Checks of a Given set of APIs using Watchmouse"
-  , "keywords": []
-  , "author": "Bernardo Gomez Palacio <bernardo@hashgo.com>"
-  , "dependencies": {}
+    "name": "watchmouse"
+  , "version": "v0.0.1-1-alpha"
+  , "description": "Unofficial Watchmouse API Health Client"
+  , "keywords": [ "watchmouse", "healthcheck" ]
+  , "author": "Bernardo Gomez Palacio <bernardo.gomezpalacio@gmail.com>"
+  , "licenses": { 
+    "type": "MIT"
+    , "url": "http://github.com/berngp/node-watchmouse/raw/master/LICENSE"
+  }
+  , "repository": { 
+      "type": "git"
+    , "url": "https://github.com:berngp/node-watchmouse"
+  }
+  , "dependencies": {
+      "restler" : "2.0.x"
+  }
+  , "devDependencies": {
+      "mocha": "latest"
+      , "should": "latest"
+      , "sinon": "latest"
+  }  
   , "main": "index"
-  , "engines": { "node": "0.6.x" }
+  , "engines": { "node": ">= 0.6.0 < 0.7.0 " }
 }
